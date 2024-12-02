@@ -104,7 +104,7 @@ def real_time_face_detection(model, stride, names, device='cpu', conf_threshold=
 
 if __name__ == "__main__":
     # Path to your trained YOLOv5 model
-    weights_path = 'face_detector_yolov5s3/weights/best.pt'
+    weights_path = 'yolov5/runs/train/face_detector_yolov5s3/weights/best.pt'
 
     # Choose device: 'cuda' for GPU, 'cpu' otherwise
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
